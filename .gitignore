@@ -1,0 +1,113 @@
+# DNS Merkle Tree Research Project - Clean Repository
+
+# SSH Keys and Certificates (CRITICAL - NEVER COMMIT)
+*.pem
+*.ppk
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*ssh*key*
+*_key
+*_key.*
+*key_*
+*private*
+id_rsa*
+id_ecdsa*
+id_ed25519*
+
+# AWS Credentials and Configuration (NEVER COMMIT)
+.aws/
+aws-credentials*
+*aws*credentials*
+*aws*config*
+*.aws
+aws.json
+credentials.json
+*access*key*
+*secret*key*
+*session*token*
+
+# Terraform State and Sensitive Files
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+terraform.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Large Binary Result Files (Keep Results Local)
+*.pcap
+*.pcapng
+*.cap
+*.pprof
+pprof*/
+goroutine.pprof
+memory.pprof
+cpu.pprof
+mutex.pprof
+
+# Performance Profiling Data
+*.pb
+*.pb.gz
+pprof.dnsproxy.samples.cpu.*
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary and Cache Files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Logs and Debug Files
+*.log
+logs/
+debug.log
+
+# Build Artifacts
+dist/
+build/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go specific
+vendor/
+*.test
+*.out
+coverage.txt
+
+# LaTeX Build Files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.out
+
+# Research Data (Keep Local - Important Results)
+analysis_cache/
+
+# Mac and Windows System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
