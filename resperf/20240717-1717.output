@@ -1,0 +1,20 @@
+DNS Resolution Performance Testing Tool
+Version 2.9.0
+
+[Status] Command line: resperf -P 20240717-1717.gnuplot -d resperf_nodnssec.tsv -s 10.0.2.70 -f inet
+[Status] Sending
+[Status] Reached 65536 outstanding queries
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         295723
+  Queries completed:    260651
+  Queries lost:         35072
+  Response codes:       NXDOMAIN 260651 (100.00%)
+  Reconnection(s):      0
+  Run time (s):         63.837007
+  Maximum throughput:   24614.000000 qps
+  Lost at that point:   3.16%
+

@@ -1,0 +1,3 @@
+[submodule "dnsproxy"]
+	path = dnsproxy
+	url = https://github.com/noamsdahan/dnsproxy.git
